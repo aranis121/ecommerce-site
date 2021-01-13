@@ -1,0 +1,128 @@
+
+
+/* ============ header-start==================== */
+#nav-bar{
+    position: sticky;
+     top: 0;
+     z-index: 10;
+ }
+ .navbar{
+     padding: 0 !important;
+ }
+ .navbar-toggler:focus {
+    text-decoration: none;
+    outline: none !important;
+    box-shadow: none !important;
+}
+ .header-icon img{
+     width: 300px;
+     height: 50px;
+     padding-left: 20px;
+     padding-top: 10px;
+ }
+ .header-menu{
+     margin-left: auto;
+ }
+ .header-bg{
+     background-color:#FFFBF0;
+ }
+ .navbar-nav li{
+     padding: 0 10px;
+ }
+ .navbar-nav li a{
+     color: #3C3C3C !important;
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 24px;
+     float: right;
+     text-align: left;
+ }
+ .fa-bars{
+     color: #000;
+     font-size: 30px !important;
+ }
+ .header-togol{
+     outline: none !important;
+     border: 0;
+     margin-top: 18px;
+ }
+
+/* ============ header-end==================== */
+/* ============ headerbanner-start==================== */
+.header-area{
+    
+}
+.header-text{
+    margin-left: 10px;
+}
+.header-text h1{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    margin-top: 50px;
+    color: #FABE4C;
+}
+.header-text h2{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: Bebas Neue;
+    text-transform: uppercase;
+    color: #363958; 3E3E3E
+}
+.header-text p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #3E3E3E;
+}
+.header-send{
+    position: absolute;
+}
+.header-send img{
+    width: 20px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 16px;
+}
+.header-send button{
+    padding: 5px 25px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: #A4BC46;
+    color: white;
+    border: 0;
+    width: 170px;
+    height: 60px;
+    margin-bottom: 60px;
+}
+.header-imgs img{
+    margin-top: 50px;
+    width: 60%;
+    margin-bottom: 50px;
+}
+.header-send button:hover{
+    background-color: none;
+}
+.btn:hover{
+    color: white;
+}
+.header-send .fas{
+
+}
+/* ============ headerbanner-end==================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
