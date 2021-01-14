@@ -1,11 +1,6 @@
 
 
 /* ============ header-start==================== */
-#nav-bar{
-    position: sticky;
-     top: 0;
-     z-index: 10;
- }
  .navbar{
      padding: 0 !important;
  }
@@ -17,26 +12,21 @@
  .header-icon img{
      width: 300px;
      height: 50px;
-     padding-left: 20px;
      padding-top: 10px;
+     margin-left: 25px;
  }
  .header-menu{
      margin-left: auto;
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 20px;
  }
  .header-bg{
      background-color:#FFFBF0;
  }
- .navbar-nav li{
-     padding: 0 10px;
- }
- .navbar-nav li a{
-     color: #3C3C3C !important;
-     font-size: 16px;
-     font-weight: 500;
-     line-height: 24px;
-     float: right;
-     text-align: left;
- }
+ .header-menu a{
+    color: #000; 
+}
  .fa-bars{
      color: #000;
      font-size: 30px !important;
@@ -46,14 +36,10 @@
      border: 0;
      margin-top: 18px;
  }
-
 /* ============ header-end==================== */
 /* ============ headerbanner-start==================== */
-.header-area{
-    
-}
 .header-text{
-    margin-left: 10px;
+    margin-left: 45px;
 }
 .header-text h1{
     font-size: 50px;
@@ -63,53 +49,214 @@
     margin-top: 50px;
     color: #FABE4C;
 }
-.header-text h2{
-    font-size: 50px;
-    font-weight: 700;
-    font-family: Bebas Neue;
-    text-transform: uppercase;
-    color: #363958; 3E3E3E
+.header-text h1 span{
+    color: #363958;
 }
 .header-text p{
     font-size: 16px;
     font-weight: 600;
     color: #3E3E3E;
 }
-.header-send{
-    position: absolute;
-}
-.header-send img{
-    width: 20px;
-    position: absolute;
-    margin-top: 20px;
-    margin-left: 16px;
-}
-.header-send button{
-    padding: 5px 25px;
-    font-size: 18px;
-    border-radius: 10px;
-    background-color: #A4BC46;
-    color: white;
-    border: 0;
-    width: 170px;
-    height: 60px;
-    margin-bottom: 60px;
-}
 .header-imgs img{
     margin-top: 50px;
     width: 60%;
     margin-bottom: 50px;
 }
-.header-send button:hover{
-    background-color: none;
+.header-item-shape .fas{
+    margin-right: 10px;
+    font-size: 16px;
+    color: #ffffff;
 }
-.btn:hover{
-    color: white;
+.header-item-shape{
+    color: #ffffff;
+    font-size: 18px;
+    display: inline-block;
+    padding: 10px 25px;
+    padding-bottom: 20px;
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    text-align: left;
+    position: absolute;
+    border-radius: 10px;
 }
-.header-send .fas{
-
+.header-item-shape a{
+   color: white;
+   text-decoration: none;
+   text-transform: uppercase;
 }
 /* ============ headerbanner-end==================== */
+/* ============ women-start==================== */
+.women{
+    padding: 50px 50px;
+}
+.women-heading h2{
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    margin-bottom: 50px;
+    color: #363958;
+}
+.women-jacket{
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    border: none;
+    padding: 20px;
+}
+.women-jacket img{
+    width: 100%;
+    padding: 28px 60px;
+    background: #f1f1f1;
+    border-radius: 15px;
+}
+.women-jacket-shape{
+    width: 50px;
+}
+.women-text h5{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #363958;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.women-text p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: justify;
+    color: #3E3E3E;
+    padding-bottom: 20px;
+}
+.price p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    margin-left: 5px;
+    color: #FABE4C;
+    display: inline-block;
+}
+.women-jacket-item{
+    text-align: right;
+}
+.women-jacket-item .fas{
+    margin-right: 10px;
+    font-size: 16px;
+    color: #ffffff;
+}
+.women-jacket-item{
+    color: #ffffff;
+    font-size: 18px;
+    display: inline-block;
+    padding: 15px 25px;
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    text-align: right;
+    position: absolute;
+    bottom: 25px;
+    right: 30px;
+    border-radius: 10px;
+}
+.women-jacket-item a{
+   color: white;
+   text-decoration: none;
+   text-transform: uppercase;
+}
+/* ============ women-end==================== */
+/* ============ service-start==================== */
+.service{
+    padding: 50px 50px;
+}
+.service-box{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    margin-bottom: 30px;
+    padding: 15px 25px;
+}
+.service-img{
+    display: inline-block;
+}
+.service-img img{
+    height: 76px;
+    width: 79px;
+    display: inline-block
+}
+.service-content{
+    display: inline-block;
+    margin-left: 15px;
+}
+.service-content h1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #363958;
+}
+.service-content p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #3E3E3E;
+}
+.service-shape img{
+    width: 450px;
+    height: 350px;
+    margin-left: 65px;
+    margin-top: 20px;
+}
+/* ============ service-end==================== */
+/* ============ footer-start==================== */
+.newsletter-shape{
+    padding: 60px 0;
+    background: #f5fdff;
+}
+.newsletter h1{
+    font-size: 40px;
+    font-family: Roboto;
+    text-align: center;
+}
+.newsletter-item{
+    text-align: center;
+}
+.newsletter-search{
+    padding: 30px 0;
+    margin: 22px 50px;
+}
+.newsletter-search .form-control{
+    max-width: 275px;
+    display: inline-flex;
+    margin: 10px 10px;
+    padding: 10px 10px 10px 20px;
+    box-shadow: none !important;
+    border-radius: 50px;
+    border: 1px solid #dcdcdc;
+}
+.sign-up{
+    background-image: linear-gradient(to right, #C3D180,#363958);
+    box-shadow: none !important;
+    border: none !important;
+    border-radius: 50px;
+    color: white;
+    display: inline-flex;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 5px;
+    outline: 0 !important;
+}
+.footer-formate{
+    text-align: center;
+}
+/* ============ footer-end==================== */
 
 
 

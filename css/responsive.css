@@ -1,0 +1,153 @@
+
+@media all and (max-width:786px){
+    .header-text{
+        padding-bottom: 30px;
+    }
+    .header-imgs{
+        padding-top: 30px;
+        text-align: center;
+    }
+    .header-imgs img{
+        width: 70%;
+    }
+    .women-item{
+        margin-bottom: 20px;
+    }
+    .women-heading{
+        text-align: center;
+    }
+    .women-text h5{
+        font-size: 25px;
+        line-height: 28px;
+    }
+    .service{
+        text-align: center;
+    }
+    .service-item{
+        padding: 0%;
+    }
+    .service-content h1{
+        padding-top: 10px;
+    }
+    .service-content p{
+        padding-top: 10px;
+        font-size: 14px;
+    }
+    .service-shape{
+        text-align: center;
+    }
+    .service-shape img{
+        width: 250px;
+        height: 210px;
+    }
+    .newsletter h1{
+        font-size: 35px;
+        text-align: center;
+    }
+    .newsletter-search{
+        margin: 15px 15px;
+    }
+    .newsletter-item{
+        text-align: center;
+    }
+    .newsletter-search .form-control{
+       max-width: none;
+       padding: 10px 10px;
+       margin-left: 2px;
+       margin-bottom: 15px;
+    }
+    .sign-up{
+       font-size: 15px;
+       margin-top: 15px;
+       padding: 12px 20px 12px 20px;
+    }
+    .footer-formate p{
+        font-size: 14px;
+    }
+}
+@media all and (max-width:992px){
+    .col-lg-6{
+        padding-bottom: 50px;
+    }
+    .header-imgs img{
+        margin-left: 100px;
+    }
+    .women-jacket{
+        padding: 5px;
+    }
+    .women-jacket img{
+        width: 100%;
+    }
+    .women-text h5{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .women-text p{
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .price p{
+        font-size: 28px;
+        line-height: 26px;
+        margin-left: 5px;
+        margin-bottom: 25px;
+    }
+    .women-jacket-item{
+        text-align: right;
+    }
+    .women-jacket-item .fas{
+        margin-right: 10px;
+        font-size: 11px;
+    }
+    .women-jacket-item{
+        font-size: 10px;
+        padding: 10px 10px;
+        right: 10px;
+    }
+    .service-box{
+        padding: 10px 10px;
+    }
+    .service-img img{
+        height: 60px;
+        width: 60px;
+    }
+    .service-content{
+        margin-left: 30px;
+    }
+    .service-content h1{
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .service-content p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .service-shape img{
+        width: 100%;
+        margin-top: 60px;
+    }
+    .newsletter-item{
+        text-align: center;
+    }
+    .newsletter-search{
+        margin: 15px 15px;
+    }
+    .newsletter-search .form-control{
+        max-width: 200px;
+        padding: 10px 10px;
+        margin-left: 2px;
+        margin-bottom: 15px;
+    }
+    .sign-up{
+        font-size: 15px;
+        margin-top: 15px;
+        padding: 10px 25px 10px 25px;
+    }
+}
+
+
+
+
+
+
+
